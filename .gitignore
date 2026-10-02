@@ -1,0 +1,16 @@
+# Your raw evidence stays on your machine. Cite it by path; do not publish it.
+raw/
+retros/private/
+
+# Run logs can contain names and paths from your business.
+log/*.jsonl
+
+# Local working copies made from the templates. Remove these lines if your brain repo is private.
+/learnings.md
+/operating-rules.md
+
+# Editors and OS
+.DS_Store
+.obsidian/
+.vscode/
+*.swp
